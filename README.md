@@ -2,7 +2,7 @@
 
 _DISCLAIMER:_
 
-Welcome to **raylib game template**!
+Welcome to **raylib game template** *for [Replit](https://replit.com/)!*
 
 This template provides a base structure to start developing a small raylib game in plain C. The repo is also pre-configured with a default `LICENSE` (zlib/libpng) and a `README.md` (this one) to be properly filled by users. Feel free to change the LICENSE as required.
 
@@ -10,14 +10,22 @@ All the sections defined by `$(Data to Fill)` are expected to be edited and fill
 
 This template has been created to be used with raylib (www.raylib.com) and it's licensed under an unmodified zlib/libpng license.
 
-_Copyright (c) 2014-2024 Ramon Santamaria ([@raysan5](https://twitter.com/raysan5))_
+_Copyright (c) 2014-2024 Ramon Santamaria ([@raysan5](https://twitter.com/raysan5))_  
+_Modified for Replit by Gregory Haberek ([@gregoryhaberek](https://twitter.com/gregoryhaberek))_
 
 -----------------------------------
 ## Getting Started with this template
 
-You can use this templates in some ways. Using Visual Studio, using CMake or make your own build setup. This repository come with Visual Studio and CMake already setuped.
+You can use this templates in some ways. Using Replit, Visual Studio, using CMake or make your own build setup. This repository come with Replit, Visual Studio, and CMake already setuped.
 
 Chose one of the follow setup, that fit in you development enviroment.
+
+### Replit
+
+- Select **Use Template** to create your own Repl using this template.
+- Replit will download and install [emsdk](https://github.com/emscripten-core/emsdk) and then build [raylib](https://github.com/raysan5/raylib).
+- Click **Run** to build the game files and test it in the Webview.
+- Click **Stop** to shutdown the web server and continue editing.
 
 ### Visual Studio
 
