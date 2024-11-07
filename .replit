@@ -1,0 +1,12 @@
+compile = ["make","-C","build","-f","replit.mak","-j2"]
+run = ["make","-C","build","-f","replit.mak","run"]
+language = "c"
+modules = ["c-clang14","python-base-3.13","web"]
+hidden = ["**/raylib_game.*","**/*.o"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8000
+externalPort = 8000
